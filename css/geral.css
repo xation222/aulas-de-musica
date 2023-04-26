@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url(cores.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icones {
+    width: auto;
+    height: 0.8em;
+}
+a {
+    font-size: 1.3em;
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+header {
+    /*background-image: url(../imagens/fundo.jpg);*/
+    position: relative;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+h1 {
+    position: absolute;
+    color: var(--cor-fundo);
+    font-weight: bold;
+    text-shadow: 2px 1px 1px var(--cor-sombra);
+}
+h2 {
+    color: var(--cor-realce);
+    font-size: 1.2em;
+}
+#fundotopo {
+    width: 100%;
+    /*height: inherit;*/
+    position: absolute;
+    opacity: 40%;
+    outline-offset: none;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(var(--cor-destaque), black);
+    background-attachment: fixed;
+}
+main {
+    text-align: center;
+}
+div {
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#whatsapp {
+    opacity: 80%;
+}
