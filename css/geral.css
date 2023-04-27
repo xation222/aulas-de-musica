@@ -15,7 +15,6 @@ a {
     text-decoration: none;
 }
 header {
-    /*background-image: url(../imagens/fundo.jpg);*/
     position: relative;
     height: 7em;
     display: flex;
@@ -30,12 +29,11 @@ h1 {
     text-shadow: 2px 1px 1px var(--cor-sombra);
 }
 h2 {
-    color: var(--cor-realce);
+    color: blanchedalmond;
     font-size: 1.2em;
 }
 #fundotopo {
     width: 100%;
-    /*height: inherit;*/
     position: absolute;
     opacity: 40%;
     outline-offset: none;
@@ -49,11 +47,27 @@ main {
     text-align: center;
 }
 div {
-    height: 8em;
+    height: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #whatsapp {
     opacity: 80%;
+}
+.banner {
+    width: 50px;
+    display: block;
+}
+#instrumentos {
+    width: 200px;
+}
+#fundo2 {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    opacity: 10%;
+}
+footer {
+    height: 20px;
 }
